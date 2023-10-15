@@ -5,13 +5,13 @@
 Summary:	GObject introspection library for devices connected to IEEE 1394 bus
 Summary(pl.UTF-8):	Biblioteka GObject introspection do urządzeń połączonych do szyny IEEE 1394
 Name:		libhinawa
-Version:	2.6.0
+Version:	2.6.1
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://github.com/alsa-project/libhinawa/tags
 Source0:	https://www.kernel.org/pub/linux/libs/ieee1394/%{name}-%{version}.tar.xz
-# Source0-md5:	3cf6ba40750c7fd3a5640277ca356d7f
+# Source0-md5:	8177a8020aaa01708d5c509036f1dda5
 URL:		https://github.com/alsa-project/libhinawa
 BuildRequires:	glib2-devel >= 1:2.44.0
 BuildRequires:	gobject-introspection-devel >= 1.32.1
